@@ -9,11 +9,68 @@
 #include "C06.hpp"
 #include <iostream>
 #include <string>
+#include <sstream>
+#include <iomanip>
 
 using std::string;
+using std::cout;
+using std::endl;
+
+/**
+ Aufgabe 1, tauscht str1 mit str2
+
+ @param str1 string
+ @param str2 string
+ */
 
 void stringTauschen(string & str1, string & str2) {
 	string tmp = str1;
 	str1 = str2;
 	str2 = tmp;
+	cout << str1 << str2 << endl;
 }
+
+/**
+ Teilt ein double auf in vor- und nachkomma.
+
+ @param num double
+ @param vorkomma string
+ @param nachkomma string
+ */
+
+void zahlSplitten(double num, string & vorkomma, string & nachkomma) {
+	cout << num << endl;
+	string tmp;
+	std::stringstream ss;
+	long index = -1;
+
+	ss << num;
+	tmp = ss.str();
+	index = tmp.find('.');
+
+	if (index != -1) {
+		vorkomma = tmp.substr(0, index);
+		nachkomma = tmp.substr(index+1, tmp.length()-1);
+	} else {
+		vorkomma = tmp;
+	}
+
+}
+
+/**
+ Implementierung einer "trim"-Funktion
+
+ @param str string
+ */
+
+void stringOhneLeerzeichen(string & str) {
+	string tmp;
+
+	for (int i = 0; i < str.length(); i++) {
+		if (str[i] != ' ') {
+			tmp += str[i];
+		}
+	}
+	str = tmp;
+}
+

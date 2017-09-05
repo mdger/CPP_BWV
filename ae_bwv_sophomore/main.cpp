@@ -6,10 +6,17 @@
 //
 //
 
+#include "chapters/C06.hpp"
 #include <iostream>
+#include <string>
+#include <iomanip>
+
+using std::string;
 
 int main(int argc, const char * argv[]) {
-	// insert code here...
-	std::cout << "Hello, World!\n";
+	string str1 = "Ich mag Kekse... ";
+	stringOhneLeerzeichen(str1);
+	std::cout << str1 << std::endl;
+
 	return 0;
 }

@@ -14,5 +14,8 @@
 using std::string;
 
 void stringTauschen(string &, string &);
+void zahlSplitten(double, string &, string &);
+void stringOhneLeerzeichen(string &);
+
 
 #endif /* C06_hpp */
