@@ -10,7 +10,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#include <iomanip>
+#include <cmath>
 
 using std::string;
 using std::cout;
@@ -72,5 +72,21 @@ void stringOhneLeerzeichen(string & str) {
 		}
 	}
 	str = tmp;
+}
+
+/**
+ Berechnet x1 und x2 einer quadratischen Gleichung mithilfe der Mitternachts-Formel
+
+ ax^2 + bx + c = 0
+
+ @param a int
+ @param b int
+ @param c int
+ */
+void quadratischeGleichung(int a, int b, int c) {
+	double xOne = std::pow(2*a,-1)*(-1*b+std::sqrt(std::pow(b,2)-4*a*c));
+	double xTwo = std::pow(2*a,-1)*(-1*b-std::sqrt(std::pow(b,2)-4*a*c));
+
+	cout << "x1 = " << xOne << " " << "x2 = " << xTwo << endl;
 }
 

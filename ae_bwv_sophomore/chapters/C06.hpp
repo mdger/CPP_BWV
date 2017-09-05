@@ -16,6 +16,7 @@ using std::string;
 void stringTauschen(string &, string &);
 void zahlSplitten(double, string &, string &);
 void stringOhneLeerzeichen(string &);
+void quadratischeGleichung(int, int, int);
 
 
 #endif /* C06_hpp */

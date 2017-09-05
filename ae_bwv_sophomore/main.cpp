@@ -18,5 +18,7 @@ int main(int argc, const char * argv[]) {
 	stringOhneLeerzeichen(str1);
 	std::cout << str1 << std::endl;
 
+	quadratischeGleichung(2, 10, 12);
+
 	return 0;
 }
