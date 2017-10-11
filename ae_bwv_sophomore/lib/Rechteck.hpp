@@ -14,6 +14,7 @@ private:
 	double laenge;
 	double breite;
 public:
+	Rechteck(double, double);
 	double getBreite();
 	void setBreite(double);
 	double getLaenge();

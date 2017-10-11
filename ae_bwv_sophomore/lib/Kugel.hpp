@@ -18,6 +18,7 @@ private:
 	double position[3];
 
 public:
+	Kugel(double, double, double, double);
 	double getRadius();
 	void setRadius(double);
 	void setPosition(double, double, double);

@@ -9,6 +9,16 @@
 #include "Mitarbeiter.hpp"
 #include <sstream>
 
+Mitarbeiter::Mitarbeiter(string name, long id) {
+	this->name = name;
+	this->id = id;
+}
+
+Mitarbeiter::Mitarbeiter(Mitarbeiter & mitarbeiter) {
+	this->name = mitarbeiter.getName();
+	this->id = mitarbeiter.getId();
+}
+
 string Mitarbeiter::getName() {
 	return this->name;
 }

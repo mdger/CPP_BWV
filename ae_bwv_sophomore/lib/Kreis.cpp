@@ -9,6 +9,10 @@
 #include "Kreis.hpp"
 #include <cmath>
 
+Kreis::Kreis(double radius) {
+	this->radius = radius;
+}
+
 double Kreis::getRadius() {
 	return this->radius;
 }

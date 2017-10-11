@@ -8,6 +8,11 @@
 
 #include "Rechteck.hpp"
 
+Rechteck::Rechteck(double laenge, double breite) {
+	this->laenge = laenge;
+	this->breite = breite;
+}
+
 double Rechteck::getBreite() {
 	return this->breite;
 }

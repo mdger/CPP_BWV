@@ -11,8 +11,33 @@
 #include <iomanip>
 #include <string>
 #include <cmath>
+#include <iostream>
 
 using std::string;
+
+Datum::Datum(int tag, int monat, int jahr) {
+	this->tag = tag;
+	this->monat = monat;
+	this->jahr = jahr;
+}
+
+Datum::Datum(Datum & datum) {
+	this->tag = datum.getTag();
+	this->monat = datum.getMonat();
+	this->jahr = datum.getJahr();
+}
+
+Datum::Datum(string datum) {
+	std::istringstream iss(datum);
+	string tmp;
+
+	iss >> tmp;
+	this->tag = std::stoi(tmp);
+	iss >> tmp;
+	this->monat = std::stoi(tmp);
+	iss >> tmp;
+	this->jahr = std::stoi(tmp);
+}
 
 void Datum::setTag(int tag) {
 	if (tag > 0 && tag <= 30) {

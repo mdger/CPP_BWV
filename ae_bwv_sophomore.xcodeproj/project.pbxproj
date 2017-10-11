@@ -15,6 +15,7 @@
 		93106B3E1F857AD0004CFF33 /* Datum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93106B3C1F857AD0004CFF33 /* Datum.cpp */; };
 		93106B411F858F26004CFF33 /* Kugel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93106B3F1F858F26004CFF33 /* Kugel.cpp */; };
 		93106B441F859491004CFF33 /* DynArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93106B421F859491004CFF33 /* DynArray.cpp */; };
+		9347EAA51F8EC6AF00067343 /* Dreieck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9347EAA31F8EC6AF00067343 /* Dreieck.cpp */; };
 		936E37A31F589684000FD529 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 936E37A21F589684000FD529 /* main.cpp */; };
 		93831E6A1F61FA8D00011478 /* C08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93831E681F61FA8D00011478 /* C08.cpp */; };
 		93831E6D1F61FAE600011478 /* lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93831E6B1F61FAE600011478 /* lib.cpp */; };
@@ -51,6 +52,8 @@
 		93106B401F858F26004CFF33 /* Kugel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Kugel.hpp; sourceTree = "<group>"; };
 		93106B421F859491004CFF33 /* DynArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynArray.cpp; sourceTree = "<group>"; };
 		93106B431F859491004CFF33 /* DynArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DynArray.hpp; sourceTree = "<group>"; };
+		9347EAA31F8EC6AF00067343 /* Dreieck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dreieck.cpp; sourceTree = "<group>"; };
+		9347EAA41F8EC6AF00067343 /* Dreieck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Dreieck.hpp; sourceTree = "<group>"; };
 		936E379F1F589684000FD529 /* ae_bwv_sophomore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ae_bwv_sophomore; sourceTree = BUILT_PRODUCTS_DIR; };
 		936E37A21F589684000FD529 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		93831E681F61FA8D00011478 /* C08.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C08.cpp; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				93106B371F8571BD004CFF33 /* Rechteck.hpp */,
 				93106B331F856B3B004CFF33 /* Kreis.cpp */,
 				93106B341F856B3B004CFF33 /* Kreis.hpp */,
+				9347EAA31F8EC6AF00067343 /* Dreieck.cpp */,
+				9347EAA41F8EC6AF00067343 /* Dreieck.hpp */,
 				93106B301F856724004CFF33 /* Mitarbeiter.cpp */,
 				93106B311F856724004CFF33 /* Mitarbeiter.hpp */,
 			);
@@ -198,6 +203,7 @@
 				93106B321F856724004CFF33 /* Mitarbeiter.cpp in Sources */,
 				93CE91ED1F72794600A7C0D1 /* C09.cpp in Sources */,
 				93106B441F859491004CFF33 /* DynArray.cpp in Sources */,
+				9347EAA51F8EC6AF00067343 /* Dreieck.cpp in Sources */,
 				93831E6D1F61FAE600011478 /* lib.cpp in Sources */,
 				930CF09E1F5F5C60000B525E /* C07.cpp in Sources */,
 				936E37A31F589684000FD529 /* main.cpp in Sources */,

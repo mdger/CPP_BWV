@@ -13,6 +13,7 @@ class Kreis {
 private:
 	double radius;
 public:
+	Kreis(double);
 	double getRadius();
 	void setRadius(double);
 	double umfang();

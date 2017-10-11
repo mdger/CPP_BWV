@@ -19,6 +19,10 @@ private:
 	string name;
 	long id;
 public:
+	Mitarbeiter(string, long);
+	Mitarbeiter(Mitarbeiter &);
+//	~Mitarbeiter();
+
 	string getName();
 	void setName(string);
 	long getId();

@@ -17,6 +17,9 @@ private:
 	int monat;
 	int jahr;
 public:
+	Datum(int, int, int);
+	Datum(Datum &);
+	Datum(std::string);
 	void setTag(int);
 	void setMonat(int);
 	void setJahr(int);

@@ -10,6 +10,13 @@
 #include <string>
 #include <iostream>
 
+Kugel::Kugel(double radius, double x, double y, double z) {
+	this->radius = radius;
+	this->position[0] = x;
+	this->position[1] = y;
+	this->position[2] = z;
+}
+
 double Kugel::getRadius() {
 	return radius;
 }
