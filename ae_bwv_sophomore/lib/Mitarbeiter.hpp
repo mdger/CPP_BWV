@@ -18,15 +18,15 @@ class Mitarbeiter {
 private:
 	string name;
 	long id;
+protected:
+	void setId(long);
 public:
 	Mitarbeiter(string, long);
 	Mitarbeiter(Mitarbeiter &);
-//	~Mitarbeiter();
 
 	string getName();
 	void setName(string);
 	long getId();
-	void setId(long);
 	string toString();
 };
 #endif /* Mitarbeiter_hpp */

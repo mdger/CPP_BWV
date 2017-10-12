@@ -17,6 +17,9 @@
 #include <iomanip>
 #include <memory>
 #include "Mitarbeiter.hpp"
+#include "MitarbeiterMalocher.hpp"
+#include "MitarbeiterHengst.hpp"
+#include "MitarbeiterManager.hpp"
 #include "lib/Kreis.hpp"
 #include "lib/Rechteck.hpp"
 #include "lib/Kfz.hpp"
@@ -28,9 +31,18 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-	shared_ptr<Dreieck> pDreieck = make_shared<Dreieck>(2.0, 3.0, 4.02);
 
-	cout << pDreieck->flaeche() << endl;
+	shared_ptr<MitarbeiterMalocher> pMalocher = make_shared<MitarbeiterMalocher>("Malocher", 323, 8.95, 42);
+
+	cout << pMalocher->toString() << endl;
+
+	shared_ptr<MitarbeiterHengst> pHengst = make_shared<MitarbeiterHengst>("Hengst", 559, 2500.0);
+
+	cout << pHengst->toString() << endl;
+
+	shared_ptr<MitarbeiterManager> pManager = make_shared<MitarbeiterManager>("Manager", 363, 2500.0, 1.25);
+
+	cout << pManager->toString() << endl;
 
 	return 0;
 }

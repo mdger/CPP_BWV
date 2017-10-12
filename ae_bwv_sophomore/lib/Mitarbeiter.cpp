@@ -8,10 +8,11 @@
 
 #include "Mitarbeiter.hpp"
 #include <sstream>
+#include <cmath>
 
 Mitarbeiter::Mitarbeiter(string name, long id) {
 	this->name = name;
-	this->id = id;
+	this->id = std::abs(id);
 }
 
 Mitarbeiter::Mitarbeiter(Mitarbeiter & mitarbeiter) {
@@ -32,7 +33,7 @@ void Mitarbeiter::setName(string name) {
 }
 
 void Mitarbeiter::setId(long id) {
-	this->id = id;
+	this->id = std::abs(id);
 }
 
 string Mitarbeiter::toString() {

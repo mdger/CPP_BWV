@@ -15,6 +15,9 @@
 		93106B3E1F857AD0004CFF33 /* Datum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93106B3C1F857AD0004CFF33 /* Datum.cpp */; };
 		93106B411F858F26004CFF33 /* Kugel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93106B3F1F858F26004CFF33 /* Kugel.cpp */; };
 		93106B441F859491004CFF33 /* DynArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93106B421F859491004CFF33 /* DynArray.cpp */; };
+		9332E2201F8F62DA008FA89B /* MitarbeiterHengst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9332E21E1F8F62DA008FA89B /* MitarbeiterHengst.cpp */; };
+		933457F81F8FFDB900C6C50E /* MitarbeiterMalocher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 933457F61F8FFDB900C6C50E /* MitarbeiterMalocher.cpp */; };
+		933457FC1F90092C00C6C50E /* MitarbeiterManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 933457FA1F90092C00C6C50E /* MitarbeiterManager.cpp */; };
 		9347EAA51F8EC6AF00067343 /* Dreieck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9347EAA31F8EC6AF00067343 /* Dreieck.cpp */; };
 		936E37A31F589684000FD529 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 936E37A21F589684000FD529 /* main.cpp */; };
 		93831E6A1F61FA8D00011478 /* C08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93831E681F61FA8D00011478 /* C08.cpp */; };
@@ -52,6 +55,12 @@
 		93106B401F858F26004CFF33 /* Kugel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Kugel.hpp; sourceTree = "<group>"; };
 		93106B421F859491004CFF33 /* DynArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynArray.cpp; sourceTree = "<group>"; };
 		93106B431F859491004CFF33 /* DynArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DynArray.hpp; sourceTree = "<group>"; };
+		9332E21E1F8F62DA008FA89B /* MitarbeiterHengst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MitarbeiterHengst.cpp; sourceTree = "<group>"; };
+		9332E21F1F8F62DA008FA89B /* MitarbeiterHengst.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MitarbeiterHengst.hpp; sourceTree = "<group>"; };
+		933457F61F8FFDB900C6C50E /* MitarbeiterMalocher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MitarbeiterMalocher.cpp; sourceTree = "<group>"; };
+		933457F71F8FFDB900C6C50E /* MitarbeiterMalocher.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MitarbeiterMalocher.hpp; sourceTree = "<group>"; };
+		933457FA1F90092C00C6C50E /* MitarbeiterManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MitarbeiterManager.cpp; sourceTree = "<group>"; };
+		933457FB1F90092C00C6C50E /* MitarbeiterManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MitarbeiterManager.hpp; sourceTree = "<group>"; };
 		9347EAA31F8EC6AF00067343 /* Dreieck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dreieck.cpp; sourceTree = "<group>"; };
 		9347EAA41F8EC6AF00067343 /* Dreieck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Dreieck.hpp; sourceTree = "<group>"; };
 		936E379F1F589684000FD529 /* ae_bwv_sophomore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ae_bwv_sophomore; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +103,12 @@
 				93106B341F856B3B004CFF33 /* Kreis.hpp */,
 				9347EAA31F8EC6AF00067343 /* Dreieck.cpp */,
 				9347EAA41F8EC6AF00067343 /* Dreieck.hpp */,
+				933457FA1F90092C00C6C50E /* MitarbeiterManager.cpp */,
+				933457FB1F90092C00C6C50E /* MitarbeiterManager.hpp */,
+				933457F61F8FFDB900C6C50E /* MitarbeiterMalocher.cpp */,
+				933457F71F8FFDB900C6C50E /* MitarbeiterMalocher.hpp */,
+				9332E21E1F8F62DA008FA89B /* MitarbeiterHengst.cpp */,
+				9332E21F1F8F62DA008FA89B /* MitarbeiterHengst.hpp */,
 				93106B301F856724004CFF33 /* Mitarbeiter.cpp */,
 				93106B311F856724004CFF33 /* Mitarbeiter.hpp */,
 			);
@@ -210,8 +225,11 @@
 				93F9814A1F59D7580045CEBB /* C06.cpp in Sources */,
 				93106B351F856B3B004CFF33 /* Kreis.cpp in Sources */,
 				93106B381F8571BD004CFF33 /* Rechteck.cpp in Sources */,
+				9332E2201F8F62DA008FA89B /* MitarbeiterHengst.cpp in Sources */,
+				933457F81F8FFDB900C6C50E /* MitarbeiterMalocher.cpp in Sources */,
 				93831E6A1F61FA8D00011478 /* C08.cpp in Sources */,
 				93106B3E1F857AD0004CFF33 /* Datum.cpp in Sources */,
+				933457FC1F90092C00C6C50E /* MitarbeiterManager.cpp in Sources */,
 				93106B411F858F26004CFF33 /* Kugel.cpp in Sources */,
 				93106B3B1F85738C004CFF33 /* Kfz.cpp in Sources */,
 			);

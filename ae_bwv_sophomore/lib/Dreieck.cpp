@@ -56,6 +56,7 @@ void Dreieck::setC(double c) {
 
 	if (!isConstructable()) {
 		this->c = tmp;
+	}
 }
 
 double Dreieck::getA() {
