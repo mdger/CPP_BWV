@@ -9,23 +9,28 @@
 #include "Kfz.hpp"
 #include <iostream>
 
-double Kfz::getPreis() {
-	return this->preis;
+Kfz::Kfz(double tankinhaltMax) : geschwindigkeit(0), tankinhalt(0), tankinhaltMax(tankinhaltMax) {}
+
+void Kfz::setTankinhalt(double liter) {
+	this->tankinhalt = liter;
 }
-void Kfz::setPreis(double preis) {
-	if (preis > 0.0) {
-		this->preis = preis;
-	}
+
+double Kfz::getTankinhaltMax() {
+	return tankinhaltMax;
 }
 
 void Kfz::auftanken(double liter) {
-	// Maximale Tankfüllung ist 50l
-	if (liter + this->tankinhalt <= 50.0) {
+	if (liter + this->tankinhalt <= tankinhaltMax) {
 		this->tankinhalt += liter;
 	} else {
-		this->tankinhalt = 50.0;
-		std::cout << "Überschüssige Tankfüllung verworfen. Der Tank ist voll!" << std::endl;
+		this->tankinhalt = tankinhaltMax;
+		std::cout << "Überschüssige Tankfüllung verworfen. Der Tank ist voll! (" << tankinhaltMax<< ")"
+		<< std::endl;
 	}
+}
+
+double Kfz::getGeschwindigkeit() {
+	return geschwindigkeit;
 }
 
 void Kfz::bremsen(double kmH) {
@@ -46,4 +51,12 @@ void Kfz::beschleunigen(double kmH) {
 		this->geschwindigkeit += kmH;
 		std::cout << "Beschleunigt, momentane Geschwindigkeit ist " << this->geschwindigkeit << std::endl;
 	}
+}
+
+double Kfz::getTankinhalt() {
+	return tankinhalt;
+}
+
+Kfz::~Kfz() {
+
 }

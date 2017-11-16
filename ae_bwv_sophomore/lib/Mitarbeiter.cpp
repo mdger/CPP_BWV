@@ -41,3 +41,7 @@ string Mitarbeiter::toString() {
 	ss << "Personalnummer: " << this->id << " Name: " << this->name << std::endl;
 	return ss.str();;
 }
+
+Mitarbeiter::~Mitarbeiter() {
+	
+}

@@ -13,13 +13,13 @@
 
 class MitarbeiterHengst : public Mitarbeiter {
 private:
-	float gehalt;
+	double gehalt;
 protected:
-	void setGehalt(float);
+	void setGehalt(double);
 	void setId(long);
 public:
-	MitarbeiterHengst(string, long, float);
-	float getGehalt();
+	MitarbeiterHengst(string, long, double);
+	double einkommen();
 	string toString();
 };
 

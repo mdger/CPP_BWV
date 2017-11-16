@@ -27,6 +27,9 @@ public:
 	string getName();
 	void setName(string);
 	long getId();
-	string toString();
+	virtual string toString();
+	virtual double einkommen() =0;
+
+	virtual ~Mitarbeiter();
 };
 #endif /* Mitarbeiter_hpp */

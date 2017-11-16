@@ -75,3 +75,7 @@ double Dreieck::flaeche() {
 	double s = ((a+b+c)/2);
 	return std::sqrt(s*(s-a)*(s-b)*(s-c));
 }
+
+double Dreieck::umfang() {
+	return a + b +c;
+}

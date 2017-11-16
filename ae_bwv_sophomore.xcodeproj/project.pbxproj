@@ -19,10 +19,19 @@
 		933457F81F8FFDB900C6C50E /* MitarbeiterMalocher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 933457F61F8FFDB900C6C50E /* MitarbeiterMalocher.cpp */; };
 		933457FC1F90092C00C6C50E /* MitarbeiterManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 933457FA1F90092C00C6C50E /* MitarbeiterManager.cpp */; };
 		9347EAA51F8EC6AF00067343 /* Dreieck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9347EAA31F8EC6AF00067343 /* Dreieck.cpp */; };
+		93642CFE1FB456AB00472F4D /* ZweiDFigur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93642CFC1FB456AB00472F4D /* ZweiDFigur.cpp */; };
+		93642D011FB458DE00472F4D /* NEck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93642CFF1FB458DE00472F4D /* NEck.cpp */; };
 		936E37A31F589684000FD529 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 936E37A21F589684000FD529 /* main.cpp */; };
+		9376D77A1FBD7DFE0007FC13 /* Schachbrett.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9376D7781FBD7DFE0007FC13 /* Schachbrett.cpp */; };
 		93831E6A1F61FA8D00011478 /* C08.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93831E681F61FA8D00011478 /* C08.cpp */; };
 		93831E6D1F61FAE600011478 /* lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93831E6B1F61FAE600011478 /* lib.cpp */; };
 		93CE91ED1F72794600A7C0D1 /* C09.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93CE91EB1F72794600A7C0D1 /* C09.cpp */; };
+		93E2DF3C1F9685BB0014BEC6 /* KfzPersonentransportfahrzeug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93E2DF3A1F9685BB0014BEC6 /* KfzPersonentransportfahrzeug.cpp */; };
+		93E2DF3F1F968D410014BEC6 /* KfzBus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93E2DF3D1F968D410014BEC6 /* KfzBus.cpp */; };
+		93E2DF421F9692290014BEC6 /* KfzPkw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93E2DF401F9692290014BEC6 /* KfzPkw.cpp */; };
+		93E2DF451F9696BB0014BEC6 /* KfzLkw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93E2DF431F9696BB0014BEC6 /* KfzLkw.cpp */; };
+		93EE58251F989984004729AE /* Schachfigur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93EE58231F989984004729AE /* Schachfigur.cpp */; };
+		93EE58281F989CA1004729AE /* SchachfigurSpringer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93EE58261F989CA1004729AE /* SchachfigurSpringer.cpp */; };
 		93F9814A1F59D7580045CEBB /* C06.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93F981481F59D7580045CEBB /* C06.cpp */; };
 /* End PBXBuildFile section */
 
@@ -43,16 +52,16 @@
 		930CF09D1F5F5C60000B525E /* C07.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = C07.hpp; sourceTree = "<group>"; };
 		93106B301F856724004CFF33 /* Mitarbeiter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mitarbeiter.cpp; sourceTree = "<group>"; };
 		93106B311F856724004CFF33 /* Mitarbeiter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mitarbeiter.hpp; sourceTree = "<group>"; };
-		93106B331F856B3B004CFF33 /* Kreis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kreis.cpp; sourceTree = "<group>"; };
-		93106B341F856B3B004CFF33 /* Kreis.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Kreis.hpp; sourceTree = "<group>"; };
-		93106B361F8571BD004CFF33 /* Rechteck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rechteck.cpp; sourceTree = "<group>"; };
-		93106B371F8571BD004CFF33 /* Rechteck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Rechteck.hpp; sourceTree = "<group>"; };
+		93106B331F856B3B004CFF33 /* Kreis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Kreis.cpp; path = ../Kreis.cpp; sourceTree = "<group>"; };
+		93106B341F856B3B004CFF33 /* Kreis.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Kreis.hpp; path = ../Kreis.hpp; sourceTree = "<group>"; };
+		93106B361F8571BD004CFF33 /* Rechteck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rechteck.cpp; path = ../Rechteck.cpp; sourceTree = "<group>"; };
+		93106B371F8571BD004CFF33 /* Rechteck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Rechteck.hpp; path = ../Rechteck.hpp; sourceTree = "<group>"; };
 		93106B391F85738C004CFF33 /* Kfz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kfz.cpp; sourceTree = "<group>"; };
 		93106B3A1F85738C004CFF33 /* Kfz.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Kfz.hpp; sourceTree = "<group>"; };
 		93106B3C1F857AD0004CFF33 /* Datum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Datum.cpp; sourceTree = "<group>"; };
 		93106B3D1F857AD0004CFF33 /* Datum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Datum.hpp; sourceTree = "<group>"; };
-		93106B3F1F858F26004CFF33 /* Kugel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kugel.cpp; sourceTree = "<group>"; };
-		93106B401F858F26004CFF33 /* Kugel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Kugel.hpp; sourceTree = "<group>"; };
+		93106B3F1F858F26004CFF33 /* Kugel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Kugel.cpp; path = ../Kugel.cpp; sourceTree = "<group>"; };
+		93106B401F858F26004CFF33 /* Kugel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Kugel.hpp; path = ../Kugel.hpp; sourceTree = "<group>"; };
 		93106B421F859491004CFF33 /* DynArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynArray.cpp; sourceTree = "<group>"; };
 		93106B431F859491004CFF33 /* DynArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DynArray.hpp; sourceTree = "<group>"; };
 		9332E21E1F8F62DA008FA89B /* MitarbeiterHengst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MitarbeiterHengst.cpp; sourceTree = "<group>"; };
@@ -61,16 +70,40 @@
 		933457F71F8FFDB900C6C50E /* MitarbeiterMalocher.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MitarbeiterMalocher.hpp; sourceTree = "<group>"; };
 		933457FA1F90092C00C6C50E /* MitarbeiterManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MitarbeiterManager.cpp; sourceTree = "<group>"; };
 		933457FB1F90092C00C6C50E /* MitarbeiterManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MitarbeiterManager.hpp; sourceTree = "<group>"; };
-		9347EAA31F8EC6AF00067343 /* Dreieck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dreieck.cpp; sourceTree = "<group>"; };
-		9347EAA41F8EC6AF00067343 /* Dreieck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Dreieck.hpp; sourceTree = "<group>"; };
+		934542F01F9176CF0034155E /* ClassKfz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClassKfz.png; sourceTree = "<group>"; };
+		934542F11F9176CF0034155E /* ClassKfz.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ClassKfz.xml; sourceTree = "<group>"; };
+		934542F21F9176CF0034155E /* ClassMitarbeiter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClassMitarbeiter.png; sourceTree = "<group>"; };
+		934542F31F9176CF0034155E /* ClassMitarbeiter.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ClassMitarbeiter.xml; sourceTree = "<group>"; };
+		934542F41F9176CF0034155E /* Medien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Medien.png; sourceTree = "<group>"; };
+		934542F51F9176CF0034155E /* Medien.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Medien.xml; sourceTree = "<group>"; };
+		9347EAA31F8EC6AF00067343 /* Dreieck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Dreieck.cpp; path = ../Dreieck.cpp; sourceTree = "<group>"; };
+		9347EAA41F8EC6AF00067343 /* Dreieck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Dreieck.hpp; path = ../Dreieck.hpp; sourceTree = "<group>"; };
+		93642CFC1FB456AB00472F4D /* ZweiDFigur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ZweiDFigur.cpp; path = ae_bwv_sophomore/lib/ZweiDFigur.cpp; sourceTree = SOURCE_ROOT; };
+		93642CFD1FB456AB00472F4D /* ZweiDFigur.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ZweiDFigur.hpp; path = ae_bwv_sophomore/lib/ZweiDFigur.hpp; sourceTree = SOURCE_ROOT; };
+		93642CFF1FB458DE00472F4D /* NEck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NEck.cpp; sourceTree = "<group>"; };
+		93642D001FB458DE00472F4D /* NEck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NEck.hpp; sourceTree = "<group>"; };
 		936E379F1F589684000FD529 /* ae_bwv_sophomore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ae_bwv_sophomore; sourceTree = BUILT_PRODUCTS_DIR; };
 		936E37A21F589684000FD529 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9376D7781FBD7DFE0007FC13 /* Schachbrett.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Schachbrett.cpp; sourceTree = "<group>"; };
+		9376D7791FBD7DFE0007FC13 /* Schachbrett.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Schachbrett.hpp; sourceTree = "<group>"; };
 		93831E681F61FA8D00011478 /* C08.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C08.cpp; sourceTree = "<group>"; };
 		93831E691F61FA8D00011478 /* C08.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = C08.hpp; sourceTree = "<group>"; };
 		93831E6B1F61FAE600011478 /* lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lib.cpp; sourceTree = "<group>"; };
 		93831E6C1F61FAE600011478 /* lib.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lib.hpp; sourceTree = "<group>"; };
 		93CE91EB1F72794600A7C0D1 /* C09.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C09.cpp; sourceTree = "<group>"; };
 		93CE91EC1F72794600A7C0D1 /* C09.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = C09.hpp; sourceTree = "<group>"; };
+		93E2DF3A1F9685BB0014BEC6 /* KfzPersonentransportfahrzeug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KfzPersonentransportfahrzeug.cpp; sourceTree = "<group>"; };
+		93E2DF3B1F9685BB0014BEC6 /* KfzPersonentransportfahrzeug.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KfzPersonentransportfahrzeug.hpp; sourceTree = "<group>"; };
+		93E2DF3D1F968D410014BEC6 /* KfzBus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KfzBus.cpp; sourceTree = "<group>"; };
+		93E2DF3E1F968D410014BEC6 /* KfzBus.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KfzBus.hpp; sourceTree = "<group>"; };
+		93E2DF401F9692290014BEC6 /* KfzPkw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KfzPkw.cpp; sourceTree = "<group>"; };
+		93E2DF411F9692290014BEC6 /* KfzPkw.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KfzPkw.hpp; sourceTree = "<group>"; };
+		93E2DF431F9696BB0014BEC6 /* KfzLkw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KfzLkw.cpp; sourceTree = "<group>"; };
+		93E2DF441F9696BB0014BEC6 /* KfzLkw.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KfzLkw.hpp; sourceTree = "<group>"; };
+		93EE58231F989984004729AE /* Schachfigur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Schachfigur.cpp; sourceTree = "<group>"; };
+		93EE58241F989984004729AE /* Schachfigur.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Schachfigur.hpp; sourceTree = "<group>"; };
+		93EE58261F989CA1004729AE /* SchachfigurSpringer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SchachfigurSpringer.cpp; sourceTree = "<group>"; };
+		93EE58271F989CA1004729AE /* SchachfigurSpringer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SchachfigurSpringer.hpp; sourceTree = "<group>"; };
 		93F981481F59D7580045CEBB /* C06.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C06.cpp; sourceTree = "<group>"; };
 		93F981491F59D7580045CEBB /* C06.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = C06.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,20 +122,83 @@
 		93106B2F1F856724004CFF33 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				93642CF41FB454B400472F4D /* shapes */,
 				93106B421F859491004CFF33 /* DynArray.cpp */,
 				93106B431F859491004CFF33 /* DynArray.hpp */,
-				93106B3F1F858F26004CFF33 /* Kugel.cpp */,
-				93106B401F858F26004CFF33 /* Kugel.hpp */,
 				93106B3C1F857AD0004CFF33 /* Datum.cpp */,
 				93106B3D1F857AD0004CFF33 /* Datum.hpp */,
-				93106B391F85738C004CFF33 /* Kfz.cpp */,
-				93106B3A1F85738C004CFF33 /* Kfz.hpp */,
+				93642CF61FB4555800472F4D /* kfz */,
+				93642CF71FB4558500472F4D /* chess */,
+				93642CF81FB4559100472F4D /* mitarbeiter */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		934542EF1F9176CF0034155E /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				934542F01F9176CF0034155E /* ClassKfz.png */,
+				934542F11F9176CF0034155E /* ClassKfz.xml */,
+				934542F21F9176CF0034155E /* ClassMitarbeiter.png */,
+				934542F31F9176CF0034155E /* ClassMitarbeiter.xml */,
+				934542F41F9176CF0034155E /* Medien.png */,
+				934542F51F9176CF0034155E /* Medien.xml */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		93642CF41FB454B400472F4D /* shapes */ = {
+			isa = PBXGroup;
+			children = (
+				93642CFC1FB456AB00472F4D /* ZweiDFigur.cpp */,
+				93642CFD1FB456AB00472F4D /* ZweiDFigur.hpp */,
 				93106B361F8571BD004CFF33 /* Rechteck.cpp */,
 				93106B371F8571BD004CFF33 /* Rechteck.hpp */,
 				93106B331F856B3B004CFF33 /* Kreis.cpp */,
 				93106B341F856B3B004CFF33 /* Kreis.hpp */,
 				9347EAA31F8EC6AF00067343 /* Dreieck.cpp */,
 				9347EAA41F8EC6AF00067343 /* Dreieck.hpp */,
+				93642CFF1FB458DE00472F4D /* NEck.cpp */,
+				93642D001FB458DE00472F4D /* NEck.hpp */,
+				93106B3F1F858F26004CFF33 /* Kugel.cpp */,
+				93106B401F858F26004CFF33 /* Kugel.hpp */,
+			);
+			path = shapes;
+			sourceTree = "<group>";
+		};
+		93642CF61FB4555800472F4D /* kfz */ = {
+			isa = PBXGroup;
+			children = (
+				93106B391F85738C004CFF33 /* Kfz.cpp */,
+				93106B3A1F85738C004CFF33 /* Kfz.hpp */,
+				93E2DF3D1F968D410014BEC6 /* KfzBus.cpp */,
+				93E2DF3E1F968D410014BEC6 /* KfzBus.hpp */,
+				93E2DF401F9692290014BEC6 /* KfzPkw.cpp */,
+				93E2DF411F9692290014BEC6 /* KfzPkw.hpp */,
+				93E2DF431F9696BB0014BEC6 /* KfzLkw.cpp */,
+				93E2DF441F9696BB0014BEC6 /* KfzLkw.hpp */,
+				93E2DF3A1F9685BB0014BEC6 /* KfzPersonentransportfahrzeug.cpp */,
+				93E2DF3B1F9685BB0014BEC6 /* KfzPersonentransportfahrzeug.hpp */,
+			);
+			name = kfz;
+			sourceTree = "<group>";
+		};
+		93642CF71FB4558500472F4D /* chess */ = {
+			isa = PBXGroup;
+			children = (
+				9376D7781FBD7DFE0007FC13 /* Schachbrett.cpp */,
+				9376D7791FBD7DFE0007FC13 /* Schachbrett.hpp */,
+				93EE58261F989CA1004729AE /* SchachfigurSpringer.cpp */,
+				93EE58271F989CA1004729AE /* SchachfigurSpringer.hpp */,
+				93EE58231F989984004729AE /* Schachfigur.cpp */,
+				93EE58241F989984004729AE /* Schachfigur.hpp */,
+			);
+			name = chess;
+			sourceTree = "<group>";
+		};
+		93642CF81FB4559100472F4D /* mitarbeiter */ = {
+			isa = PBXGroup;
+			children = (
 				933457FA1F90092C00C6C50E /* MitarbeiterManager.cpp */,
 				933457FB1F90092C00C6C50E /* MitarbeiterManager.hpp */,
 				933457F61F8FFDB900C6C50E /* MitarbeiterMalocher.cpp */,
@@ -112,7 +208,7 @@
 				93106B301F856724004CFF33 /* Mitarbeiter.cpp */,
 				93106B311F856724004CFF33 /* Mitarbeiter.hpp */,
 			);
-			path = lib;
+			name = mitarbeiter;
 			sourceTree = "<group>";
 		};
 		936E37961F589684000FD529 = {
@@ -134,6 +230,7 @@
 		936E37A11F589684000FD529 /* ae_bwv_sophomore */ = {
 			isa = PBXGroup;
 			children = (
+				934542EF1F9176CF0034155E /* doc */,
 				93106B2F1F856724004CFF33 /* lib */,
 				93F981471F59D7580045CEBB /* chapters */,
 				936E37A21F589684000FD529 /* main.cpp */,
@@ -216,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93106B321F856724004CFF33 /* Mitarbeiter.cpp in Sources */,
+				93EE58251F989984004729AE /* Schachfigur.cpp in Sources */,
 				93CE91ED1F72794600A7C0D1 /* C09.cpp in Sources */,
 				93106B441F859491004CFF33 /* DynArray.cpp in Sources */,
 				9347EAA51F8EC6AF00067343 /* Dreieck.cpp in Sources */,
@@ -223,13 +321,21 @@
 				930CF09E1F5F5C60000B525E /* C07.cpp in Sources */,
 				936E37A31F589684000FD529 /* main.cpp in Sources */,
 				93F9814A1F59D7580045CEBB /* C06.cpp in Sources */,
+				93642D011FB458DE00472F4D /* NEck.cpp in Sources */,
 				93106B351F856B3B004CFF33 /* Kreis.cpp in Sources */,
+				93EE58281F989CA1004729AE /* SchachfigurSpringer.cpp in Sources */,
 				93106B381F8571BD004CFF33 /* Rechteck.cpp in Sources */,
+				93E2DF3F1F968D410014BEC6 /* KfzBus.cpp in Sources */,
+				93E2DF3C1F9685BB0014BEC6 /* KfzPersonentransportfahrzeug.cpp in Sources */,
+				93E2DF421F9692290014BEC6 /* KfzPkw.cpp in Sources */,
+				93642CFE1FB456AB00472F4D /* ZweiDFigur.cpp in Sources */,
 				9332E2201F8F62DA008FA89B /* MitarbeiterHengst.cpp in Sources */,
 				933457F81F8FFDB900C6C50E /* MitarbeiterMalocher.cpp in Sources */,
+				93E2DF451F9696BB0014BEC6 /* KfzLkw.cpp in Sources */,
 				93831E6A1F61FA8D00011478 /* C08.cpp in Sources */,
 				93106B3E1F857AD0004CFF33 /* Datum.cpp in Sources */,
 				933457FC1F90092C00C6C50E /* MitarbeiterManager.cpp in Sources */,
+				9376D77A1FBD7DFE0007FC13 /* Schachbrett.cpp in Sources */,
 				93106B411F858F26004CFF33 /* Kugel.cpp in Sources */,
 				93106B3B1F85738C004CFF33 /* Kfz.cpp in Sources */,
 			);

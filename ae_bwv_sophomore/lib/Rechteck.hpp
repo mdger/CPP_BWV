@@ -9,7 +9,9 @@
 #ifndef Rechteck_hpp
 #define Rechteck_hpp
 
-class Rechteck {
+#include "ZweiDFigur.hpp"
+
+class Rechteck : public ZweiDFigur {
 private:
 	double laenge;
 	double breite;

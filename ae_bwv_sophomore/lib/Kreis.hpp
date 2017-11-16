@@ -9,7 +9,9 @@
 #ifndef Kreis_hpp
 #define Kreis_hpp
 
-class Kreis {
+#include "ZweiDFigur.hpp"
+
+class Kreis : public ZweiDFigur {
 private:
 	double radius;
 public:

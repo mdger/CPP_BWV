@@ -9,18 +9,18 @@
 #include "MitarbeiterManager.hpp"
 #include <sstream>
 
-MitarbeiterManager::MitarbeiterManager(string name, long id, float gehalt, double bonusSatz) : MitarbeiterHengst(name, id, gehalt), bonusSatz(bonusSatz) {
+MitarbeiterManager::MitarbeiterManager(string name, long id, double gehalt, double bonusSatz) : MitarbeiterHengst(name, id, gehalt), bonusSatz(bonusSatz) {
 	setId(id);
 	setGehalt(gehalt);
 }
 
 void MitarbeiterManager::setId(long id) {
-	id %= 10000;
-	Mitarbeiter::setId(std::abs(50000 + id));
+	id %= 100;
+	Mitarbeiter::setId(std::abs(5000 + id));
 }
 
-void MitarbeiterManager::setGehalt(float gehalt) {
-	MitarbeiterHengst::setGehalt(bonusSatz * gehalt);
+void MitarbeiterManager::setGehalt(double gehalt) {
+	MitarbeiterHengst::setGehalt(gehalt);
 }
 
 void MitarbeiterManager::setBonusSatz(double bonusSatz) {
@@ -29,4 +29,16 @@ void MitarbeiterManager::setBonusSatz(double bonusSatz) {
 
 double MitarbeiterManager::getBonusSatz() {
 	return bonusSatz;
+}
+
+double MitarbeiterManager::einkommen() {
+	return MitarbeiterHengst::einkommen() * bonusSatz;
+}
+
+string MitarbeiterManager::toString() {
+	std::stringstream ss;
+	ss << "Personalnummer: " << this->getId() << " Name: " <<
+	this->getName() << " Einkommen: " << einkommen() <<
+	" Bonus-Satz: " << getBonusSatz() << std::endl;
+	return ss.str();;
 }

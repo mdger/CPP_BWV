@@ -11,15 +11,23 @@
 
 class Kfz {
 private:
-	double preis;
-	double geschwindigkeit = 0.0;
-	double tankinhalt = 0.0;
+	double geschwindigkeit;
+	double tankinhalt;
+	double tankinhaltMax;
+protected:
+	void setTankinhalt(double liter);
 public:
-	double getPreis();
-	void setPreis(double);
-	void auftanken(double);
-	void bremsen(double);
-	void beschleunigen(double);
+	Kfz(double tankinhaltMax);
+	double getGeschwindigkeit();
+	double getTankinhaltMax();
+	double getTankinhalt();
+
+	void auftanken(double liter);
+	void bremsen(double kmH);
+	void beschleunigen(double kmH);
+	virtual void reisebereitMachen() =0;
+
+	virtual ~Kfz();
 };
 
 #endif /* Kfz_hpp */

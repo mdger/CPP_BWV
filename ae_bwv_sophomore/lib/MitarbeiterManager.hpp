@@ -16,12 +16,14 @@ private:
 	double bonusSatz;
 protected:
 	void setId(long);
-	void setGehalt(float);
+	void setGehalt(double);
 public:
-	MitarbeiterManager(string, long, float, double);
+	MitarbeiterManager(string, long, double, double);
 
 	void setBonusSatz(double);
 	double getBonusSatz();
+	double einkommen();
+	string toString();
 };
 
 #endif /* MitarbeiterManager_hpp */

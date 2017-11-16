@@ -9,7 +9,9 @@
 #ifndef Dreieck_hpp
 #define Dreieck_hpp
 
-class Dreieck {
+#include "ZweiDFigur.hpp"
+
+class Dreieck : public ZweiDFigur {
 private:
 	double a;
 	double b;
@@ -25,6 +27,7 @@ public:
 	double getB();
 	double getC();
 	double flaeche();
+	double umfang();
 
 };
 
