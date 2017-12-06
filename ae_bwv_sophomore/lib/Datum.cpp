@@ -140,7 +140,7 @@ void Datum::subtrahieren(int tage) {
 			tage -= 30;
 			if (monat == 1) {
 				jahr--;
-				monat = 12;
+					monat = 12;
 			} else {
 				monat--;
 			}
