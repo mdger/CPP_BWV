@@ -13,18 +13,50 @@ Figur::~Figur() {
     
 }
 
-void Figur::addTeilfigur(ZweiDFigur * teilfigur) {
-    
+void Figur::addTeilfigur(std::shared_ptr<ZweiDFigur> teilfigur) {
+	teilfiguren.push_back(teilfigur);
 }
 
-ZweiDFigur * Figur::getTeilfigur(int index) {
-	return this->figur[0];
+std::shared_ptr<ZweiDFigur> Figur::getTeilfigur(int index) {
+	return teilfiguren[index];
 }
+
+/**
+ Summe der Fläche aller Teilfiguren.
+
+ @return Die Gesamtfläche
+ */
 
 double Figur::flaeche() {
-    return 0.0;
+	double gesamtflaeche = 0.0;
+
+	for(std::shared_ptr<ZweiDFigur> teilfigur : teilfiguren) {
+		gesamtflaeche += teilfigur->flaeche();
+	}
+
+	return gesamtflaeche;
 }
 
+/**
+ Summe der Umfang aller Teilfiguren.
+ Das kann mitunter nicht stimmen, weil die Figuren auch zusammengesetzt
+ sein können und die "Ränder" einer Figur miteinbezogen werden.
+
+ Es wird ermutigt, die Methode zu redifinieren.
+
+ @return Der Gesamtumfang
+ */
+
 double Figur::umfang() {
-    return 0.0;
+	double gesamtUmfang = 0.0;
+
+	for(std::shared_ptr<ZweiDFigur> teilfigur : teilfiguren) {
+		gesamtUmfang += teilfigur->umfang();
+	}
+
+	return gesamtUmfang;
+}
+
+std::vector<std::shared_ptr<ZweiDFigur>> Figur::getTeilfiguren() {
+	return teilfiguren;
 }

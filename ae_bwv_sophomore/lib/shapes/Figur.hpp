@@ -11,6 +11,7 @@
 
 #include "ZweiDFigur.hpp"
 #include <vector>
+#include <memory>
 
 /**
  composition of ZweiDFigur to create different
@@ -20,14 +21,15 @@
 
 class Figur {
 private:
-    std::vector<ZweiDFigur *> figur;
+	std::vector<std::shared_ptr<ZweiDFigur>> teilfiguren;
 protected:
-    void addTeilfigur(ZweiDFigur *);
+	void addTeilfigur(std::shared_ptr<ZweiDFigur>);
+	std::vector<std::shared_ptr<ZweiDFigur>> getTeilfiguren();
 public:
     virtual ~Figur() =0;
-    ZweiDFigur * getTeilfigur(int);
-    double flaeche();
-    double umfang();
+	std::shared_ptr<ZweiDFigur> getTeilfigur(int);
+    virtual double flaeche();
+    virtual double umfang();
     
 };
 

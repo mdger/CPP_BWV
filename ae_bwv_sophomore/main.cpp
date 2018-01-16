@@ -59,6 +59,9 @@ int main(int argc, const char * argv[]) {
 	 */
 
 
-	std::shared_ptr<Stern> figur = std::make_shared<Stern>(4, 1.0, 1.0);
+	std::shared_ptr<Figur> figur = std::make_shared<Stern>(5, 1.0, 1.0);
+	cout << figur->umfang() << endl;
+	cout << figur->flaeche() << endl;
+
 	return 0;
 }

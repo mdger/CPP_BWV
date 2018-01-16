@@ -15,6 +15,7 @@ class Stern : public Figur {
 public:
 	Stern(int zacken, double zackeBreite, double zackeSeitenlaenge);
 	~Stern();
+	double umfang();
 };
 
 #endif /* Stern_hpp */
